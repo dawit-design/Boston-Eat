@@ -6,7 +6,7 @@ Boston Eats.
 
 ## Project Description
 
-creating web app for boston eatery that can be accssible by catagories, locations and ratings using zomato api.
+web app for boston eatery that can be accessible by catagories, locations and ratings using zomato api.
 
 ## API and Data Sample
 I am using Zomato api
