@@ -27,8 +27,9 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 *These are examples only. Replace with your own MVP features.*
 
 - Research for API that can provide the infromations I needed to include in my web app. 
-- Start creating the base of my web app and try putting a face for it that I am visuallizing
-- Allow user to choose favorites 
+- Start creating the base of my web app and try putting a face that I am visuallizing for it
+- start working on the functionality and and clickable events on it.
+- more more working
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
@@ -52,8 +53,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Feb 1| Presentations/Project Submission | Incomplete
 
 ## Priority Matrix
-
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 https://lucid.app/lucidchart/bc90f3f5-8feb-47f6-9e37-c1e56805f8b6/edit?beaconFlowId=953E101E0320B296&page=0_0#?folder_id=home&browser=icon
 
 ## Timeframes
@@ -66,7 +65,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Setting the basic staructure HTML/CSS | H | 3hrs|  |  |
 | Media query and advanced CSS| H | 4hrs|  |  |
-| Adding functionality to the page | H | 4hrs|  |  |
+| Javascript/Adding functionality to the page | H | 4hrs|  |  |
 | Working with API | H | 3hrs|  |  |
 | Total | H | 14hrs|  | |
 
