@@ -64,11 +64,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting the basic staructure HTML/CSS | H | 3hrs|  |  |
-| Media query and advanced CSS| H | 4hrs|  |  |
-| Javascript/Adding functionality to the page | H | 4hrs|  |  |
-| Working with API | H | 3hrs|  |  |
-| Total | H | 14hrs|  | |
+| Setting the basic staructure HTML/CSS | H | 6hrs|  |  |
+| Media query and advanced CSS| H | 6hrs|  |  |
+| Javascript/Adding functionality to the page | H | 6hrs|  |  |
+| Working with API | H | 6hrs|  |  |
+| Total | H | 24hrs|  | |
 
 ## Code Snippet
 
