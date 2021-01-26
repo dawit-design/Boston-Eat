@@ -30,7 +30,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Start creating the base of my web app and try putting a face that I am visuallizing for it
 - Start working on the functionality and clickable events on it.
 - Add more CSS advanced styling
-- more more working
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
@@ -64,11 +63,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting the basic staructure HTML/CSS | H | 6hrs|  |  |
-| Media query and advanced CSS| H | 6hrs|  |  |
-| Javascript/Adding functionality to the page | H | 6hrs|  |  |
+| Setting the basic staructure HTML/CSS | H | 3hrs|  |  |
+| Media query | H | 3hrs|  |  |
+| Advanced CSS| H | 4hrs|  |  |
+| Javascript| H | 6hrs|  |  |
+| DOM | H | 3hrs|  |  |
 | Working with API | H | 6hrs|  |  |
-| Total | H | 24hrs|  | |
+| Total | H | 25hrs|  | |
 
 ## Code Snippet
 
