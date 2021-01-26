@@ -26,9 +26,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Research for API that can provide the infromations I needed to include in my web app. 
+- Research API that can provide the infromations that I needed to include in my web app. 
 - Start creating the base of my web app and try putting a face that I am visuallizing for it
-- start working on the functionality and and clickable events on it.
+- Start working on the functionality and clickable events on it.
+- Add more CSS advanced styling
 - more more working
 
 #### PostMVP  
