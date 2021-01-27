@@ -43,7 +43,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes |complete
 |Jan 26| Project Approval | complete
 |Jan 27| Core Application Structure (HTML, CSS, etc.) | complete
 |Jan 28| Initial Clickable Model  | complete
