@@ -4,14 +4,15 @@
 }
 html {
   scroll-behavior: smooth; 
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 body{
   width: 100%;
   background: #fff;
+  font-family: 'Yusei Magic', sans-serif;
 }
 #header {
   width: 100%;
@@ -20,15 +21,18 @@ body{
   background: lightpink;
 }
 .nav-list {
-  margin: 10px 50px;
+  margin: 10px 40px;
   float: right;
   font-size: 20px;
 }
 .nav-list a {
-  margin: 20px;
+  margin: 30px;
   text-decoration: none;
   text-align: center;
   color: #000;
+}
+.nav-list a:hover {
+  color: #fff;
 }
 #home {
   width: 100%;
@@ -36,24 +40,22 @@ body{
 }
 .home-pic {
   width: 100%;
-  /* opacity: ; */
   height: 450px;
+  background-color: lightpink;
   background-size: cover;
 }
 h1{
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   color: lightcoral;
+  font-family: 'Hachi Maru Pop', cursive;
 }
-h2 {
-  text-align: center;
-  color: lightcoral;
-}
+
 #search-section {
-  width: 100%;
+   width: 100%;
   height: 450px;
-  margin: 25px;
-  padding: 25px;
+  margin: 25px auto;
+  padding: 25px auto;
 }
 .forms-sub {
   width: 100%;
@@ -62,5 +64,72 @@ h2 {
   text-align: center;
 }
 .input-class {
-  width: 300px;
+  font-family: 'Hachi Maru Pop', cursive;
+  width: 190px;
+  border: 1px solid black;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 3px;
 }
+.rest-but{
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: lightpink;
+  padding: 8px;
+  border-radius: 14%;
+}
+.rest-but:hover{
+  color: lightpink;
+  background: #fff;
+}
+#rest-list {
+  left: 15px;
+  width: 100%;
+  /* height: 3px; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.each-res {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  left: 15px;
+  font-size: 20px;
+  margin: 2px;
+  padding: 1px;
+  justify-content: space-around;
+  border: 1px solid lightpink;
+}
+.each-res:hover {
+  background: beige;
+  
+}
+.each-res h6{
+  font-weight: bold;
+  font-size: 14px;
+}
+.each-res a {
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: justify;
+}
+.each-res a:hover {
+  color: lightseagreen;
+  font-size: 16px;
+}
+
+
+/* #rated {
+  width: 100%;
+  height: 450px;
+  background-color: beige;
+} */
+/* #footer {
+  width: 100%;
+  height: 75px;
+  background: lightcoral;
+  background-size: auto;
+} */
+

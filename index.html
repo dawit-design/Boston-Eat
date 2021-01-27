@@ -12,29 +12,43 @@
 <body>
   <header id="header">
     <div class="nav-list">
-      <a href="#">Home</a>
-      <a href="#">Search</a>
-      <a href="#">Gallery</a>
+      <a href="#home">Home</a>
+      <a href="#search-section">Search</a>
+      <a href="#rated">Rated</a>
     </div>
   </header>
   <section id="home">
-    <h1>BOSTON EATS</h1>
-    <img class="home-pic" src="img/food4.jpg" alt="">
+    <div>
+      <h1>BOSTON EATS</h1>
+    </div>
+    <div>
+      <img class="home-pic" src="img/food4.jpg" alt="">
+    </div>
+    
+    
   </section>
   <section id="search-section">
     <div>
-      <h2>SEARCH BY</h2>
+      <h1>SEARCH BY</h1>
     </div>
     <div class="search-container">
       <form class="forms-sub">
-       <input class="input-class" type="text" placeholder="Catagory">
-       <button class="cata-butt" type="submit">Search</button>
+       <input class="input-class" type="text" placeholder="Restaurants">
+       <button class="rest-but" type="submit">Search</button>
       </form>
     </div>
+    <h1>Restaurants list</h1>
     <div id="rest-list">
-      <h1>Restaurants list</h1>
     </div>
  </section>
+ <!-- <section id="rated">
+   <h1>High Rated</h1>
+   <div id="by-rating"></div>
+ </section> -->
+ <footer id="footer">
+   <div class="foot">
+   </div>
+ </footer>
 
 
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
