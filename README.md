@@ -10,10 +10,8 @@ web app for boston eatery that can be accessible by catagories, locations and ra
 
 ## API and Data Sample
 I am using Zomato api
-https://developers.zomato.com/api/v2.1/categories
-https://developers.zomato.com/api/v2.1/locations?query=Boston%20%2C%20Massachusetts
-https://developers.zomato.com/api/v2.1/reviews
-
+https://developers.zomato.com/api/v2.1/search?entity_id=289&entity_type=city&order=asc
+https://developers.zomato.com/api/v2.1/searchentity_id=289&start=0&count=100&sort=rating&order=desc,
 
 ## Wireframes
 
@@ -46,9 +44,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Jan 26| Project Approval | Incomplete
-|Jan 27| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 28| Initial Clickable Model  | Incomplete
+|Jan 26| Project Approval | complete
+|Jan 27| Core Application Structure (HTML, CSS, etc.) | complete
+|Jan 28| Initial Clickable Model  | complete
 |Jan 29| MVP | Incomplete
 |Feb 1| Presentations/Project Submission | Incomplete
 
@@ -63,13 +61,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting the basic staructure HTML/CSS | H | 3hrs|  |  |
+| Setting the basic staructure HTML/CSS | H | 3hrs| 3hrs |  |
 | Media query | H | 3hrs|  |  |
 | Advanced CSS| H | 4hrs|  |  |
-| Javascript| H | 6hrs|  |  |
-| DOM | H | 3hrs|  |  |
-| Working with API | H | 6hrs|  |  |
-| Total | H | 25hrs|  | |
+| Javascript| H | 6hrs| 5hrs|  |
+| DOM | H | 3hrs| 3hrs |  |
+| Working with API | H | 6hrs| 7hrs|  |
+| Total | H | 25hrs| 18hrs | |
 
 ## Code Snippet
 
