@@ -22,7 +22,6 @@ https://whimsical.com/boston-eats-FhTFJxBRdJMugFy3ar6wkc
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Research API that can provide the infromations that I needed to include in my web app. 
 - Start creating the base of my web app and try putting a face that I am visuallizing for it
@@ -64,10 +63,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Setting the basic staructure HTML/CSS | H | 3hrs| 3hrs |  |
 | Media query | H | 3hrs|  |  |
 | Advanced CSS| H | 4hrs|  |  |
-| Javascript| H | 6hrs| 5hrs|  |
+| Javascript| H | 6hrs| 6hrs|  |
 | DOM | H | 3hrs| 3hrs |  |
 | Working with API | H | 6hrs| 7hrs|  |
-| Total | H | 25hrs| 18hrs | |
+| Total | H | 25hrs| 19hrs | |
 
 ## Code Snippet
 
