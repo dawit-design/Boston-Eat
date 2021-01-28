@@ -14,41 +14,44 @@
     <div class="nav-list">
       <a href="#home">Home</a>
       <a href="#search-section">Search</a>
-      <a href="#rated">Rated</a>
     </div>
   </header>
   <section id="home">
-    <div>
+      <div class="main center">
+        <div class="box center">Welcome To</div>
+      </div>
       <h1>BOSTON EATS</h1>
-    </div>
-    <div>
       <img class="home-pic" src="img/food4.jpg" alt="">
-    </div>
-    
-    
+      
   </section>
   <section id="search-section">
-    <div>
-      <h1>SEARCH BY</h1>
-    </div>
     <div class="search-container">
+      <h1>SEARCH BY</h1>
       <form class="forms-sub">
-       <input class="input-class" type="text" placeholder="Restaurants">
+       <input id="input-class" type="text" onkeyup="searchSel() ">
+       <select id="realitems">
+        <OPTION value="">Select...
+        <option value="Restaurants">Restaurants</option>
+        <option value="Rating">Rating</option>
+        <option value="Locationa">Location</option>
+        <option value="Cuisines">Cuisines</option>
+       </select>
        <button class="rest-but" type="submit">Search</button>
       </form>
     </div>
     <h1>Restaurants list</h1>
-    <div id="rest-list">
-    </div>
+    <div id="rest-list"></div>
+    
  </section>
- <!-- <section id="rated">
-   <h1>High Rated</h1>
-   <div id="by-rating"></div>
- </section> -->
- <footer id="footer">
+ <section id="footer">
    <div class="foot">
-   </div>
- </footer>
+     <p class="foot-name">Ⓒ Dawit Endaylalu: <span id="copyright"></span> </p>
+     <div class="social">
+       <a href="https://www.linkedin.com/in/dawit-endaylalu-0ab8a41b3/"><i class="fab fa-linkedin-in"></i></a>
+       <a href="https://github.com/dawit-design"><i class="fab fa-github"></i></a>
+      </div>
+     </div>
+ </section>
 
 
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
