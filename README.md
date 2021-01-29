@@ -42,11 +42,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes |complete
+|Jan 25-26| Prompt / Wireframes / Priority Matrix / Timeframes | complete
 |Jan 26| Project Approval | complete
 |Jan 27| Core Application Structure (HTML, CSS, etc.) | complete
 |Jan 28| Initial Clickable Model  | complete
-|Jan 29| MVP | Incomplete
+|Jan 29| MVP | complete
 |Feb 1| Presentations/Project Submission | Incomplete
 
 ## Priority Matrix
@@ -62,11 +62,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Setting the basic staructure HTML/CSS | H | 3hrs| 3hrs |  |
 | Media query | H | 3hrs|  |  |
-| Advanced CSS| H | 4hrs|  |  |
-| Javascript| H | 6hrs| 6hrs|  |
-| DOM | H | 3hrs| 3hrs |  |
-| Working with API | H | 6hrs| 7hrs|  |
-| Total | H | 25hrs| 19hrs | |
+| Advanced CSS| H | 4hrs| 3hrs |  |
+| Javascript| H | 6hrs| 7hrs|  |
+| DOM | H | 3hrs| 4hrs |  |
+| Working with API | H | 6hrs| 8hrs|  |
+| Total | H | 25hrs| 25hrs | |
 
 ## Code Snippet
 
