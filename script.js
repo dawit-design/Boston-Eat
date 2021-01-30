@@ -1,14 +1,16 @@
+// zomato api to search for my data
 const DOMAIN = `https://developers.zomato.com/api/v2.1/search?entity_id=289&entity_type=city`;
 const API_KEY = `9d76e594aa790973097bf60d5815e470`
 // const contentType = `application/json`
-const BASE_URL = `${DOMAIN}?apikey=&`;
+const BASE_URL = `${DOMAIN}?apikey=&${API_KEY}`;
 
-async function restaurantsName(restaurants) {
+
+//async function to fetch data from the api 
+async function restaurantsName(restaurant) {
   try {
-    let response = await axios.get(`${BASE_URL}s=${restaurants}`, {
-      headers: {"user-key": "9d76e594aa790973097bf60d5815e470","content-type": "application/json", 'Accept': 'application/json'}})
-    
-    // console.log(response.data.restaurants)
+    let response = await axios.get(`${BASE_URL}s=${restaurant}`, {
+      headers: { "user-key": "9d76e594aa790973097bf60d5815e470", "content-type": "application/json", }})
+    // console.log(response)
     const restaurantList = response.data.restaurants
     // console.log(restaurantList)
     
@@ -20,16 +22,8 @@ async function restaurantsName(restaurants) {
 }
 
 // restaurantsName()
-const searchButton = document.querySelector('.rest-but');
-// console.log(searchButton)
-  searchButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    removeRestaurants()
-    const searchValue = document.querySelector('#input-class').value
-    // console.log(searchValue)
-    restaurantsName(searchValue)
-    
-  })
+
+// function to itterate and collect data that is going to be shown on my web page
 function restaurantsGetData(restaurantList) {
   let restContainer = document.querySelector('#rest-list') 
   restaurantList.forEach(restaurantList => {
@@ -50,14 +44,25 @@ function restaurantsGetData(restaurantList) {
   })
   
 }
+// search function to take input value and add event listener for my buttons
+const searchButton = document.querySelector('.rest-but');
+// console.log(searchButton)
+  searchButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    removeRestaurants()
+    const searchValue = document.querySelector('#input-class').value
+    console.log(searchValue)
+    restaurantsName(searchValue)
+    
+  })
 
-
+// function to remove my first result from the browser and display the next search data
 function removeRestaurants() {
   const restsContainer = document.querySelector('#rest-list')
   while (restsContainer.lastChild)
     restsContainer.removeChild(restsContainer.lastChild)
 }
-
+// my second api to display data by rating
 async function ratedRestaurants() {
   try {
     let res = await 
@@ -80,7 +85,6 @@ async function ratedRestaurants() {
   
 
 } 
-// ratedRestaurants()
 
 function getMoreData(bestRate) {
   let newData = document.querySelector('#rest-list')
@@ -112,6 +116,8 @@ function removeRatedRestaurants() {
   while (ratedData.lastChild)
   ratedData.removeChild(ratedData.lastChild)
 }
+
+// another function to display restaurants by cusine from the same api
 async function cuisinesRestaurants() {
   try {
     let res = await 

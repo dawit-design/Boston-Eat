@@ -254,3 +254,159 @@ h1 {
   font-size: 25px;
 }
 
+/* MEIDA QUERY FOR HIGH RESOLUTIONSLARGER SCREEN */
+@media (min-width: 1281px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    color: lightseagreen;
+  }
+  .nav-list a{
+    font-size: 20px;
+    text-align: center;
+
+  }
+}
+
+/* MEDIA QUERY FOR LAPTOPS, DESKTOPS */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    color: dodgerblue;
+  }
+  .nav-list a{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+  }
+}
+  
+
+/* FOR TABLETS AND IPADS PORTRAIT */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  h1 {
+    text-align: center;
+    font-size: 55px;
+    color: teal;
+  }
+  .nav-list a{
+    font-size: 20px;
+    text-align: center;
+    color: #41aea9;
+  }
+  #input-class,
+  #cuisine-id,
+  #rate-class {
+  font-family: "Hachi Maru Pop", cursive;
+  width: 120px;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 3px;
+  }
+  .rest-but,
+  .cuisine-btn,
+  .rate-btn {
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: lightpink;
+  padding: 5px;
+  border-radius: 14%;
+  }
+}
+  
+
+/* LANDSCAPE IPADS AND TABLETS */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  h1 {
+    text-align: center;
+    font-size: 55px;
+    color: teal;
+  }
+  .home-pic{
+    width: 100%;
+  }
+  .nav-list a{
+    font-size: 20px;
+    text-align: center;
+    color: #41aea9;
+  }
+  #input-class,
+  #cuisine-id,
+  #rate-class {
+  font-family: "Hachi Maru Pop", cursive;
+  width: 120px;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 3px;
+  }
+  .rest-but,
+  .cuisine-btn,
+  .rate-btn {
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: lightpink;
+  padding: 5px;
+  border-radius: 14%;
+  }
+  
+  
+}
+
+/* FOR MOBILE */
+@media (min-width: 320px) and (max-width: 767px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+  }
+  .home-pic{
+    width: 100%;
+  }
+  .nav-list a{
+    font-size: 20px;
+    text-align: center;
+    color: #41aea9;
+  }
+  #input-class,
+   #cuisine-id,
+  #rate-class {
+  font-family: "Hachi Maru Pop", cursive;
+  width: 120px;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 3px;
+  }
+  .rest-but,
+  .cuisine-btn,
+  .rate-btn {
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: lightpink;
+  padding: 5px;
+  border-radius: 14%;
+  }
+  
+}

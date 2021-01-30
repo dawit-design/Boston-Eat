@@ -10,8 +10,7 @@ web app for boston eatery that can be accessible by catagories, locations and ra
 
 ## API and Data Sample
 I am using Zomato api
-https://developers.zomato.com/api/v2.1/search?entity_id=289&entity_type=city&order=asc
-https://developers.zomato.com/api/v2.1/searchentity_id=289&start=0&count=100&sort=rating&order=desc,
+https://developers.zomato.com/api/v2.1/search?entity_id=289&entity_type=city,
 
 ## Wireframes
 
@@ -31,8 +30,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- https://developers.zomato.com/api/v2.1/location_details?entity_id=289&entity_type=city
 
 ## Project Schedule
 
@@ -60,13 +58,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting the basic staructure HTML/CSS | H | 3hrs| 3hrs |  |
-| Media query | H | 3hrs|  |  |
-| Advanced CSS| H | 4hrs| 4hrs |  |
-| Javascript| H | 6hrs| 7hrs|  |
-| DOM | H | 3hrs| 5hrs |  |
-| Working with API | H | 6hrs| 8hrs|  |
-| Total | H | 25hrs| 27hrs | |
+| Setting the basic staructure HTML/CSS | H | 3hrs| 3hrs | 3hrs |
+| Media query | H | 3hrs| 2hrs | 2hrs |
+| Advanced CSS| H | 4hrs| 4hrs | 4hrs |
+| Javascript| H | 6hrs| 8hrs| 8hrs |
+| DOM | H | 3hrs| 5hrs | 5hrs |
+| Working with API | H | 6hrs| 8hrs| 8hrs |
+| Total | H | 25hrs| 30hrs | 30hrs|
 
 ## Code Snippet
 
