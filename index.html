@@ -17,29 +17,28 @@
     </div>
   </header>
   <section id="home">
-      <div class="main center">
-        <div class="box center">Welcome To</div>
-      </div>
       <h1>BOSTON EATS</h1>
       <img class="home-pic" src="img/food4.jpg" alt="">
       
   </section>
   <section id="search-section">
     <div class="search-container">
+      <div class="main center">
+        <div class="box center">Welcome</div>
+      </div>
       <h1>SEARCH BY</h1>
       <form class="forms-sub">
-       <input id="input-class" type="text" onkeyup="searchSel() ">
-       <select id="realitems">
-        <OPTION value="">Select...
-        <option value="Restaurants">Restaurants</option>
-        <option value="Rating">Rating</option>
-        <option value="Locationa">Location</option>
-        <option value="Cuisines">Cuisines</option>
-       </select>
-       <button class="rest-but" type="submit">Search</button>
+       <input id="input-class" type="text" placeholder="Retsaurants">
+       <button class="rest-but" >Search</button>
+
+       <input id="rate-class" type="text" placeholder="Rating">
+      <button class="rate-btn" >Search</button>
+
+      <input id="cuisine-id" type="text" placeholder="Cuisine">
+      <button class="cuisine-btn" type="button">Search</button>
       </form>
+       
     </div>
-    <h1>Restaurants list</h1>
     <div id="rest-list"></div>
     
  </section>

@@ -62,11 +62,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Setting the basic staructure HTML/CSS | H | 3hrs| 3hrs |  |
 | Media query | H | 3hrs|  |  |
-| Advanced CSS| H | 4hrs| 3hrs |  |
+| Advanced CSS| H | 4hrs| 4hrs |  |
 | Javascript| H | 6hrs| 7hrs|  |
-| DOM | H | 3hrs| 4hrs |  |
+| DOM | H | 3hrs| 5hrs |  |
 | Working with API | H | 6hrs| 8hrs|  |
-| Total | H | 25hrs| 25hrs | |
+| Total | H | 25hrs| 27hrs | |
 
 ## Code Snippet
 

@@ -56,6 +56,7 @@ body {
   position: relative;
   background: rgb(24, 24, 24,);
   border-radius: 50%;
+  
 }
 .box::before{
   content: '';
@@ -91,22 +92,25 @@ h1 {
   padding: 25px auto;
 }
 .forms-sub {
-  
   width: 100%;
   height: 45px;
   margin: 20px auto;
   text-align: center;
   justify-content: center;
 }
-#input-class {
+#input-class,
+#cuisine-id,
+#rate-class {
   font-family: "Hachi Maru Pop", cursive;
-  width: 190px;
+  width: 170px;
   border: 1px solid black;
-  padding: 8px;
+  padding: 5px;
   margin: 5px;
   border-radius: 3px;
 }
-.rest-but {
+.rest-but,
+.cuisine-btn,
+.rate-btn {
   text-transform: uppercase;
   border: 1px solid black;
   background-color: lightpink;
@@ -114,6 +118,14 @@ h1 {
   border-radius: 14%;
 }
 .rest-but:hover {
+  color: lightpink;
+  background: #fff;
+}
+.cuisine-btn:hover{
+  color: lightpink;
+  background: #fff;
+}
+.rate-btn:hover{
   color: lightpink;
   background: #fff;
 }
@@ -144,7 +156,7 @@ h1 {
   flex-direction: column;
 }
 .each-res a {
-  margin: 1px auto;
+  margin: 1px 3px;
   display: inline-block;
   color: tomato;
   font-size: 14px;
@@ -160,8 +172,55 @@ h1 {
   display: block;
   font-size: 14px;
 }
-
-
+.rate-class{
+  width: 100%;
+  height: 100px;
+  display: block;
+  font-size: 14px;
+  margin: 20px;
+  padding: 5px;
+  justify-content: center;
+  border: 1px solid lightpink;
+}
+.rate-class a {
+  margin: 1px 2px;
+  display: inline-block;
+  color: tomato;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: justify;
+}
+.rate-class h6 {
+  margin: 4px auto;
+  display: block;
+  font-size: 16px;
+}
+.rate-class a:hover {
+  color: lightseagreen;
+  font-size: 20px;
+}
+.cuisine-class{
+  width: 100%;
+  height: 110px;
+  display: block;
+  font-size: 14px;
+  margin: 20px;
+  padding: 5px;
+  justify-content: center;
+  border: 1px solid lightpink;
+}
+.cuisine-class a {
+  margin: 1px auto;
+  display: inline-block;
+  color: tomato;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: justify;
+}
+.cuisine-class a:hover {
+  color: lightseagreen;
+  font-size: 20px;
+}
 #footer {
   position: absolute;
   width: 100%;
@@ -171,7 +230,6 @@ h1 {
   margin-bottom: 20px;
   background: lightcoral;
   background-size: cover;
-  
 }
 .foot-name{
   text-align: center;
@@ -192,7 +250,7 @@ h1 {
 }
 .fab:hover {
   display: inline-block;
-  color: dodgerblue;
+  color: lightseagreen;
   font-size: 25px;
 }
 
