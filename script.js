@@ -40,21 +40,29 @@ function restaurantsGetData(restaurantList) {
    restContainer.appendChild(newRes)
    newRes.insertAdjacentHTML('beforeend', restaurantData)
     return restaurantData;
-    
-  })
-  
+    })
 }
+
+
 // search function to take input value and add event listener for my buttons
 const searchButton = document.querySelector('.rest-but');
 // console.log(searchButton)
-  searchButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    removeRestaurants()
-    const searchValue = document.querySelector('#input-class').value
-    console.log(searchValue)
-    restaurantsName(searchValue)
-    
-  })
+  searchButton.addEventListener('click', inputSearch)
+    // inputSearch.preventDefault();
+    function inputSearch(restaurantList) {
+      const searchValue = document.querySelector('#input-class');
+      // console.log(searchValue)
+      for (let i = 0; i < searchValue.length; i++){
+        if (searchValue[i].value === `${restaurantList.restaurant.name}`) {
+          return true;
+        } else {
+          return null;
+        }
+      }
+      restaurantsName(searchValue)
+      removeRestaurants()
+    }
+  //  
 
 // function to remove my first result from the browser and display the next search data
 function removeRestaurants() {
@@ -166,7 +174,8 @@ const searchThirdButton = document.querySelector('.cuisine-btn');
 searchThirdButton.addEventListener('click', (e) => {
   e.preventDefault();
   removeCusineRestaurants()
-    const searchValue = document.querySelector('#cuisine-id').value
+  const searchValue = document.querySelector('#cuisine-id').value
+  
     cuisinesRestaurants(searchValue)
 })
   
