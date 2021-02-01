@@ -46,10 +46,11 @@ function restaurantsGetData(restaurantList) {
 
 // search function to take input value and add event listener for my buttons
 const searchButton = document.querySelector('.rest-but');
-// console.log(searchButton)
-  searchButton.addEventListener('click', inputSearch)
-    // inputSearch.preventDefault();
-    function inputSearch(restaurantList) {
+// console.log(searchButton
+  
+  searchButton.addEventListener('click', (e) => {
+    e.preventDefault();
+  removeRestaurants()
       const searchValue = document.querySelector('#input-class');
       // console.log(searchValue)
       for (let i = 0; i < searchValue.length; i++){
@@ -60,8 +61,8 @@ const searchButton = document.querySelector('.rest-but');
         }
       }
       restaurantsName(searchValue)
-      removeRestaurants()
-    }
+      
+    })
   //  
 
 // function to remove my first result from the browser and display the next search data
